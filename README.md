@@ -1,16 +1,7 @@
-# tutorial_app
+# first_app
 
-A new Flutter project.
+A Flutter project made from a tutorial
 
-## Getting Started
+## Usage
+Note - the build.gradle file needs to have line 63 and 64 removed to be able to find the java installation - I've added some lines to help solve and issue with vscode where it wasn't finding my Java installation
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
