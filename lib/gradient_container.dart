@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tutorial_app/styled_text.dart';
+import 'package:tutorial_app/dice_roller.dart';
 
 // Final can be used instead of const if the value is not known at compile time
 // But with const teh value is locked in at time of compiling - performance improvement
@@ -33,19 +33,8 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: Center(
-        child: Column(
-          children: [
-            Image.asset(
-              "assets/images/dice-1.png",
-              width: 200,
-            ),
-            TextButton(
-              onPressed: () {},
-              child: const Text("Roll Dice"),
-            ),
-          ],
-        ),
+      child: const Center(
+        child: DiceRoller(),
       ),
     );
   }
